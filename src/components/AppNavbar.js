@@ -7,7 +7,7 @@ export default function AppNavbar() {
   return (
     <>
     {location.pathname === "/"? null :
-  	<Navbar expand="lg" className="mt-3">
+  	<Navbar expand="lg" className="mt-2"> 
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="ms-auto"/>
         <Navbar.Collapse id="basic-navbar-nav" className="ms-auto">
