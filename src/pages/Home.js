@@ -23,7 +23,7 @@ export default function Home () {
 										<Nav.Link as={Link} to="/projects" className="nav-hover mx-md-5 ms-auto">Projects</Nav.Link>
 										<Nav.Link as={Link} to="/tools" className="nav-hover mx-md-5 ms-auto">Tools</Nav.Link>
 					         		</Nav>
-					       		</Navbar.Collapse>
+					       		</Navbar.Collapse> 
 					     	</Container>
 					    </Navbar>
 					<Stack direction="horizontal" gap={3} className="">
