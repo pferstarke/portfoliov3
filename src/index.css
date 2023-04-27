@@ -1,3 +1,8 @@
+html {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,9 +11,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./images/1.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: radial-gradient(circle at center, #61C4D2, #43A6B3, #207E8B, #0565b6, #090979);
+
 }
 
 code {
@@ -22,7 +26,8 @@ code {
 }
 
 .home-border, .form{
-  background-color: #F5F5F5;
+/*  background-color: #F5F5F5;*/
+  background: linear-gradient(to right, #61C4D2, #43A6B3, #207E8B, #0565b6, #61C4D2);
   border: 1px solid #E0E0E0;
   border-radius: 5px;
   box-shadow: -15px 15px 30px 10px rgba(0, 0, 0, 0.8);
@@ -34,12 +39,6 @@ code {
   max-width: 70%;
 }
 
-/*@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');*/
-
-body{
-  padding: 40px;
-  background-color: #121212;  
-}
 
 .home-name {
   border-right: solid 3px rgba(0,255,0,.75);
@@ -62,20 +61,20 @@ body{
 }
 
 /* cursor animations */
-
 @keyframes animated-cursor{
   from{border-right-color: rgba(0,0,0,.75);}
   to{border-right-color: transparent;}
 }
 
+
+
 /* ABOUT ME */
 
-
-h1 {
+#about-me {
   font-size: 5.25vmin;
   color: white;
 }
-p {
+#about-paragraph {
   font-size: max(10pt, 2.5vmin);
   line-height: 1.4;
   color: #0e390e;
@@ -88,7 +87,6 @@ p {
   width: auto;
   height: 35em;
   border: 8px solid;
-/*  border-image: linear-gradient(-50deg, green, #00b300, forestgreen, green, lightgreen, #00e600, green) 1;*/
   margin: 1rem auto;
   transition: .3s ease-in-out;
   position: relative;
@@ -100,7 +98,7 @@ p {
   width: 100%;
   height: 100%;
   padding: 1rem .75rem;
-  background: #8B05BD;
+/*  background: #8B05BD;*/
   transition: .4s ease-in-out;
   z-index: 1;
 }
@@ -417,20 +415,11 @@ p {
 
 /* AppNavbar */
 .nav-hover:hover{
-  color: #8B05BD !important;
+  color: #00d4ff !important;
 }
-
 
 
 /* Projects.js */
-html {
-  font-family: sans-serif;
-  box-sizing: border-box;
-}
-
-/**, *:before, *:after {
-  box-sizing: inherit;
-}*/
 
 .text-center {
   text-align: center;
